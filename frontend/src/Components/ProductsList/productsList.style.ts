@@ -106,6 +106,6 @@ const Styled = {
     PriceText,
     Icon
 
-  };
+}
   
-  export default Styled;
+export default Styled

@@ -7,6 +7,8 @@ import { ROUTES, URLS } from '../../enum/urls'
 import useFetch from '../../hooks/useFetch'
 import { Product } from '../../interface/Product'
 import Spinner from '../Spinner/Spinner'
+import Styled from './productsList.style'
+
 
 const ProductsList = () => {
 
