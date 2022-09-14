@@ -15,6 +15,7 @@ import Navigation from '../../Components/Navigation/Navigation';
 import HeroSection from './Components/HeroSection/HeroSection';
 import SelectedProducts from './Components/SelectedProducts/SelectedProducts';
 import CategoryPreviews from './Components/CategoryPreview/CategoryPreview';
+// import NewsletterCta from './Components/NewsletterCta/NewsletterCta';
 
 
 const HomeScreen = () => {
@@ -74,8 +75,8 @@ const HomeScreen = () => {
     <>
     <HeroSection/>
     <CategoryPreviews/>
-    <SelectedProducts/>  
-             
+    <SelectedProducts/>
+    {/* <NewsletterCta/>             */}
     </>
   )
 }
