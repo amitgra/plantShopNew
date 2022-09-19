@@ -20,11 +20,11 @@ const SelectedProducts = () => {
   
   const renderProducts = ()=> (
           products.slice(0, 4).map((product:Product) => {
-          const {id,name,img,price,plantFamily,imageAlt} =product
+          const {_id:productId,name,img,price,plantFamily,imageAlt} =product
   
           return (
-            <Link to={`${ROUTES.PRODUCT}/${id}`} key={id}>
-                  <Styled.ProductCard key={id}>   
+            <Link to={`${ROUTES.PRODUCT}/${productId}`} key={productId}>
+                  <Styled.ProductCard key={productId}>   
                     <Styled.ImgWarapper>
                       <Styled.ProductImg src={img} alt={imageAlt}/>
                     </Styled.ImgWarapper>

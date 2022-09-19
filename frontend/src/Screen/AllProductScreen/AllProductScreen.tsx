@@ -54,9 +54,10 @@ const AllProductScreen = () => {
       const myProducts:Product[] = []
 
       for(const el of data){
-        const {id,name,img,description,price,date,category}= el
+        const {_id,id,name,img,description,price,date,category}= el
+
         myProducts.push({
-          id, name, img, description, price, date, category,
+          _id,id, name, img, description, price, date, category,
           plantFamily: '',
           imageAlt: '',
           size: [],
