@@ -18,7 +18,7 @@ const ProductsList = () => {
       })
       
       const renderProducts = ()=> (
-              products.slice(0, 4).map((product:Product) => {
+              products.map((product:Product) => {
               const {id,name,img,price,plantFamily,imageAlt} =product
       
               return (
