@@ -7,6 +7,7 @@ import userRoutes from './routes/userRoutes'
 import productRoutes from './routes/productRoutes'
 import { errorHandler, notFoundRoutes } from './middleware/errorMiddleware'
 import orderRoutes from './routes/orderRoutes'
+import categoryRoutes from './routes/categoryRoutes'
 
 
 
@@ -20,6 +21,7 @@ app.use(express.json())
 
 
 app.use('/api/products', productRoutes)
+app.use('/api/categories', categoryRoutes)
 app.use('/api/users', userRoutes)
 app.use('/api/orders', orderRoutes)
 
